@@ -1,18 +1,42 @@
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Stick To It</title>
-<style>
-body{margin:0;font:17px/1.55 system-ui,sans-serif;color:#2a1d10;background:linear-gradient(#7e4e26,#2e1a0c) fixed;min-height:100vh}
-main{max-width:640px;margin:0 auto;padding:48px 20px}
-.card{background:#fbf6ee;border-radius:20px;padding:28px 26px;box-shadow:0 18px 40px rgba(0,0,0,.35)}
-h1{margin:0 0 6px;font-size:34px}p{margin:10px 0}a{color:#b0521c}
-.stick{height:22px;border-radius:11px;background:linear-gradient(#f2d29a,#d9a964);box-shadow:2px 3px 0 rgba(0,0,0,.18);margin:8px 0;width:70%}
-.stick:nth-child(2){width:55%;margin-left:30%}
-small{color:#8a7560}
-</style></head><body><main><div class="card">
-<div class="stick"></div><div class="stick"></div>
-<h1>Stick To It</h1>
-<p>To-do lists on popsicle sticks. Hold to add one, slide it over when it's done, and share a board with the people you live or work with, live.</p>
-<p><a href="privacy.html">Privacy policy</a></p>
-<p><small>Made by ShakiiART &amp; Meowz Network Productions.</small></p>
-</div></main></body></html>
+<meta name="description" content="To-do lists on popsicle sticks. Hold to add one, slide it over when it's done, and share a board with anyone, live.">
+<link rel="icon" href="img/icon.png">
+<link rel="stylesheet" href="site.css">
+</head><body>
+<header class="hero">
+  <div class="stars"></div><div class="sun"></div>
+  <div class="title">
+    <img src="img/icon.png" alt="">
+    <h1>Stick To It</h1>
+    <p>To-do lists on popsicle sticks. Hold to add one, slide it over when it's done.</p>
+  </div>
+  <a class="cue" href="#about">Scroll</a>
+</header>
+<main>
+  <div class="wrap" id="about">
+    <div class="stickhead">What it is</div>
+    <p class="lede">Every to-do is a popsicle stick on a board. Write on it, slide it across when it's done, and feel that little click. A board for every day of the week, or start blank and make your own.</p>
+    <div class="shots">
+      <img src="img/cork.jpg" alt="Corkboard with sticks" loading="lazy">
+      <img src="img/chalk.jpg" alt="Night mode with neon sticks" loading="lazy">
+      <img src="img/white.jpg" alt="Every board at a glance" loading="lazy">
+      <img src="img/galaxy.jpg" alt="Living galaxy background" loading="lazy">
+      <img src="img/pastel.jpg" alt="Sakura style" loading="lazy">
+    </div>
+    <div class="stickhead alt">What it does</div>
+    <div class="grid">
+      <div class="feat"><b>Share a board, live</b><span>Family, roommates or your team on the same boards at the same time.</span></div>
+      <div class="feat"><b>Reminders</b><span>A stick can nudge you at the right time, and repeat daily, on weekdays or weekly.</span></div>
+      <div class="feat"><b>Home-screen widget</b><span>Today's sticks on your home screen. Tick them off without opening the app.</span></div>
+      <div class="feat"><b>Search everything</b><span>Find any stick on any board, on any day.</span></div>
+      <div class="feat"><b>Make it yours</b><span>Cork, chalkboard, marble, blueprint, living galaxy, lava, rain and more. Your font, your colours.</span></div>
+      <div class="feat"><b>The whole week</b><span>Turn your phone sideways and every day sits side by side.</span></div>
+    </div>
+    <a class="cta" href="#" onclick="return false">&#9654;&nbsp; Google Play <small>coming soon</small></a>
+  </div>
+</main>
+<footer>Made by ShakiiART &amp; Meowz Network Productions<br><a href="privacy.html">Privacy policy</a></footer>
+<script src="parallax.js"></script>
+</body></html>
